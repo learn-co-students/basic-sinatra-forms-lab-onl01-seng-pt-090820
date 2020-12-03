@@ -5,6 +5,23 @@
   <title>Basketball Team Signup</title>
  </head>
  <body>
+    <form action="/team" method="POST">
+        <h2><label for="team_name">Team Name: </label>
+            <input type="text" id="team_name" name="name"></h2>
+        <h2><label for="coach">Coach: </label>
+            <input type="text" id="coach" name="coach"></h2>
+        <h2><label for="point_guard">Point Guard: </label>
+            <input type="text" id="point_guard" name="pg"></h2>
+        <h2><label for="shooting_guard">Shooting Guard: </label>
+            <input type="text" id="shooting_guard" name="sg"></h2>
+        <h2><label for="small_forward">Small Forward: </label>
+            <input type="text" id="small_forward" name="sf"></h2>
+        <h2><label for="power_forward">Power Forward: </label>
+            <input type="text" id="power_forward" name="pf"></h2>
+        <h2><label for="center">Center: </label>
+            <input type="text" id="center" name="c"></h2>
+        <h2><input type="submit" value="Submit" id="Submit"></h2>
+    </form>
  </body>
 </html>
 
